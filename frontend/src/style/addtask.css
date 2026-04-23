@@ -1,0 +1,80 @@
+/* Main Container */
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 25px 30px;
+  border-radius: 14px;
+  background: #1e1f26;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #e4e4e4;
+  letter-spacing: 1px;
+}
+
+/* Labels */
+label {
+  font-weight: 600;
+  display: block;
+  color: #b7b7b7;
+  margin: 10px 0 6px;
+  font-size: 14px;
+}
+
+/* Inputs + Textarea */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  background-color: #2a2c34;
+  color: #fff;
+  border: 1px solid #3a3d47;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px #007bff;
+}
+
+/* Button */
+.submit {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, #007bff, #005fcc);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease-in-out;
+}
+
+.submit:hover {
+  background: linear-gradient(135deg, #005bcc, #0048a3);
+  transform: translateY(-2px);
+}
+
+/* Add smooth transitions */
+input,
+textarea,
+select,
+.submit {
+  transition: all 0.25s ease-in-out;
+}

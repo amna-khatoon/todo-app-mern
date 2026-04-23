@@ -1,0 +1,46 @@
+h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn1 {
+  background: #059669;
+  color: white;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.btn1:hover {
+  background: #059669;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.5);
+}
+
+.btn {
+  background: #3b82f6;
+  color: white;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.5);
+}
+
+.input1 {
+  margin-top: 12px;
+}
